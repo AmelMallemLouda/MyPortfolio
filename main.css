@@ -43,9 +43,6 @@
             height: 850px;
             width: 100%;
            
-          
-         
-           
             }
             .button{
                 font-size: medium;
@@ -168,4 +165,4 @@ body {
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);}
