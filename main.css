@@ -40,8 +40,9 @@ color: white;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-button{
+.button{
  font-size: medium;
+ margin-left: 500px;
 }
 /* Change the link color on hover */
 li a:hover {
@@ -60,8 +61,8 @@ width: 100%;
 background-color: rgb(22, 21, 21);
 color: white;
 text-align: center;}
-.hero-image {
-
+.image {
+  background-image: url("./images/Portfolio2.jpg");
 height: 950px;
 background-position: center;
 background-repeat: no-repeat;
@@ -145,8 +146,8 @@ background-color: #4CAF50;
 font-size: 30px;
   font-family: "Sofia", sans-serif;
   color:black;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 400px;
+  margin-right: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align:center;
@@ -198,6 +199,11 @@ text-align: center;}
 .col-sm-3 col-form-label{
 font-size: 20px;
 }
-.Container{
-  height: 700px;
+.Container1{
+  background-image: url("./images/Portfolio2.jpg");
+  height: 950px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
