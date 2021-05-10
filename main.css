@@ -40,7 +40,8 @@
         }
         #image {
           
-            height: 950px;
+            height: 550px;
+            width: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
