@@ -12,7 +12,7 @@ text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 191), 0 0 5px darkblue;
 .marq1{
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-margin-top: 300px;
+margin-top: 400px;
 }
 .marq2{
   color: white;
@@ -180,7 +180,7 @@ font-size: 20px;
 }
 .Container{
   
-  height: 1400px;
+  height: 1350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
