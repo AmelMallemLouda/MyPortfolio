@@ -131,7 +131,9 @@ font-size: 30px;
   font-family: "Sofia", sans-serif;
 }
 
-
+p{
+  font-style: italic;
+}
 
 .container1 {
 position: relative;
@@ -178,7 +180,7 @@ font-size: 20px;
 }
 .Container{
   
-  height: 1200px;
+  height: 1400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
