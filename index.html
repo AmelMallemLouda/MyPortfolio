@@ -49,11 +49,12 @@
       <marquee direction="down" width="750" height="0" behavior="alternate" ></marquee>
       <div class="marq2">
         <marquee behavior="alternate" style="font-size:50px;"> And I'm a Software Developer</marquee>
-      ></div>
-       <div class="button">
-         <button><a class="nav-link" href="#contact">Contact me</button></a>
-        </div>
+      </div>
+      
     </div>
+    <div class="button">
+        <button><a class="nav-link" href="#contact">Contact me</button></a>
+       </div>
 </div>
 <br>
 <div id="aboutme">
@@ -70,7 +71,7 @@
       
   
   
-          <div class="col-sm-3"> <a href="https://github.com/AmelMallemLouda/GoldBadgeChallenge">        
+          <div class="col-sm-4"> <a href="https://github.com/AmelMallemLouda/GoldBadgeChallenge">        
           <img src="Download.png" class="rounded-circle" alt="Gold Badge Challenge" width="350" height="236"> 
            </a>
            <div class="overlay">
@@ -78,7 +79,7 @@
             </div>
           </div>
       <br>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
           <a href="https://codepen.io/AmelMallem/pen/qBNLwbv">
               <img src="Codepen.png" class="rounded-circle" alt=" code pen" width="350" height="236" > 
               <div class="overlay">
@@ -86,7 +87,7 @@
                 </div>
           </a>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
           <a href="https://amelmallemlouda.github.io/StaticStoreFront/">
               <img src="Html.jfif" class="rounded-circle" alt="Html & Css" width="350" height="236" > 
               <div class="overlay">
@@ -97,7 +98,7 @@
      <br>
      </div>
      <div class="container-fluid" > 
-         <div class="col-sm-3">
+         <div class="col-sm-4">
           <a href="https://github.com/AmelMallemLouda/.Net-Blue-Badge-Project">
               <img src="Api.png" class="rounded-circle" alt=" web Api"width="350" height="236">
               <div class="overlay">
@@ -105,7 +106,7 @@
                 </div>
           </a>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-4">
               <a href="https://github.com/AmelMallemLouda/Komodo-Insurance-DevTeamProject">
                   <img src="Download.png" class="rounded-circle" alt=" dev team project c#" width="350" height="236" > 
                   <div class="overlay">
@@ -113,7 +114,7 @@
                     </div>
               </a>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-4">
               <a href="https://replit.com/@Mallem25/WhiteBadge#main.cs">
                   <img src="Replit.png" class="rounded-circle" alt=" c#" width="350" height="236" > 
                   <div class="overlay">
@@ -213,7 +214,35 @@
   </div>
      
   </div>
-  
+  <style>
+      
+      .col-sm-4:hover .overlay {
+opacity: 1;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #008CBA;
+}
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+  </style>
       </head>
      
   </body>

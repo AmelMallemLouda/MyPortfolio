@@ -5,54 +5,31 @@ body {
 
 }
 
-.col-sm-4:hover .overlay {
-opacity: 1;
-}
-.overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #008CBA;
-}
-.text {
-color: white;
-font-size: 20px;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-text-align: center;
-}
 h2{
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 191), 0 0 5px darkblue;
 }
-marquee{
+.marq1{
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+margin-top: 300px;
 }
-
+.marq2{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+  }
 .button{
  font-size: medium;
  margin-left: 500px;
+ margin-top: 300px;
 }
 /* Change the link color on hover */
 li a:hover {
 background-color: rgb(151, 12, 12);
 color: white;
 }
-marquee {
-  color: Black;
-text-align: center;
-}
+
 .footer {
 position: fixed;
 left: 0;
