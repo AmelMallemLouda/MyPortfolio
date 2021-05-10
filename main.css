@@ -1,0 +1,76 @@
+.font-effect-neon{
+  text-align: center;
+    font-size: 60px; margin-top: 30PX;
+    margin-left: 400PX;
+    font-family: "Sofia", sans-serif;
+    color: rgb(29, 21, 21);
+   vertical-align: top;
+   text-decoration: underline;
+  text-transform: capitalize;
+    text-shadow: 1px 1px;
+   font-style: italic;
+     font-size: 70px;
+    text-transform:capitalize;}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+        
+        li {
+        float: left;
+        }
+        
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+        background-color: #111;
+        }
+        
+        .active {
+        background-color: #4CAF50;
+        }
+        #image {
+            background-image: url("/Images/Portfolio2.jpg");
+            height: 950px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+           
+            }
+            .button{
+                font-size: medium;
+                margin-lefT:500PX;
+            }
+            .marq1{
+                color: white;
+                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+                margin-top: 200px;
+                }
+                .marq2{
+                    color: white;
+                    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+                
+                    }
+               .about {
+                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+                    background-color: whitesmoke;
+                 font-size: 30px;
+                    font-family: "Sofia", sans-serif;
+                    color:black;
+                    margin-left: 380px;
+                    margin-right: 380px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-align:center;
+                    font-family: "Sofia", sans-serif;
+                }
